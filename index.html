@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="styles.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+  <div class="player">
+    <div class="info">
+      <div class="details">
+        <h3 id="songName">Song Name</h3>
+        <p id="artist">Artist</p>
+      </div>
+      <img src="" alt="Album Art" id="albumArt">
+    </div>
+    <div class="progress">
+        <progress id="progressBar" value="0" max="100"></progress>
+    </div>
+    <div class="controls">
+    <audio src="" type="audio/mpeg"></audio>
+      <button id="prevButton"><i class="ri-rewind-start-fill"></i></button>
+      <button id="playPauseButton"><i class="ri-play-large-fill"></i></button>
+      <button id="nextButton"><i class="ri-forward-end-fill"></i></button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
